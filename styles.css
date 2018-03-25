@@ -11,8 +11,6 @@ html, body, .Container-Wrapper {
   max-width: 600px;
   margin: 0 auto;
   padding: 0 24px;
-  border-left: 1px solid #545454;
-  border-right: 1px solid #545454;
 }
 
 .Text-Header {
