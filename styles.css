@@ -1,0 +1,56 @@
+html, head, body, h1 {
+  margin: 0;
+  padding: 0;
+}
+
+html, body, .Container-Wrapper {
+  height: 100%;
+}
+
+.Container-Wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 24px;
+  border-left: 1px solid #545454;
+  border-right: 1px solid #545454;
+}
+
+.Text-Header {
+  padding-top: 12px;
+  font-weight: normal;
+  font-size: 22px;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  color: #4D0015;
+}
+
+.Text-Description, .Text-Donate, .Text-Permissions {
+  font-family: Verdana, Geneva, sans-serif;
+  color: #545454;
+}
+
+.Text-Description {
+  font-size: 14px;
+}
+
+.Text-Donate, .Text-Permissions {
+  font-size: 12px;
+}
+
+.Text-Donate a {
+  color: #74132D;
+  text-decoration: none;
+}
+
+.Text-Donate a:hover {
+  text-decoration: underline;
+}
+
+.Image-ChromeTabs {
+  margin: 12px 0;
+  width: 300px;
+}
+
+.Image-TabulatorPage {
+  margin: 12px 0;
+  width: 100%;
+}

@@ -1,8 +1,39 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>Get Tabulator</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
   </head>
   <body>
-    <h1>Get tabulator</h1>
+    <div class="Container-Wrapper">
+      <h1 class="Text-Header">Tabulator - a Chrome extension for power users</h1>
+      <p class="Text-Description">
+        Tabulator is a Chrome extension that tries to ease the pain of managing tons of tabs.
+        If you're anything like me, your Chrome window looks like this
+        <br/>
+        <img class="Image-ChromeTabs" src="chrometabs.png" alt="A lot of open tabs"/>
+        <br/>
+        Finding a tab can be pretty difficult.
+        <br/>
+        <br/>
+        Tabulator alleviates this by overriding your new tab page to this
+        <br/>
+        <img class="Image-TabulatorPage" src="tabulatorpage.png" alt="Tabulator page"/>
+        <br/>
+        Tabulator offers:<br/>
+        &nbsp;&nbsp;- viewing all your open tabs in a card-like format<br/>
+        &nbsp;&nbsp;- filtering through open tabs, by title or url<br/>
+        &nbsp;&nbsp;- closing tabs from the page<br/>
+        <br/>
+        Tabulator keeps your tabs in sync as you open, close, and move them between windows. If you have multiple windows open, the tabs you see are scoped to the window.
+      </p>
+      <p class="Text-Permissions">
+        The following Chrome extension permissions are required<br/>
+        - &lt;all_urls&gt;: <a href="https://developer.chrome.com/extensions/tabs#method-captureVisibleTab" target="_blank">needed</a> to capture a screenshot of a tab<br/>
+        - tabs: <a href="https://developer.chrome.com/extensions/tabs#type-Tab" target="_blank">needed</a> to access the title and url of all tabs
+
+      </p>
+      <p class="Text-Donate">Like tabulator? <a href="https://paypal.me/akhaku/5" target="_blank">Let me know</a>.</p>
+    </div>
   </body>
 </html>
