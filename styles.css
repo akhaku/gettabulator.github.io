@@ -23,7 +23,7 @@ html, body, .Container-Wrapper {
   color: #4D0015;
 }
 
-.Text-Description, .Text-Donate, .Text-Permissions {
+.Text-Description, .Text-Footer, .Text-Permissions {
   font-family: Verdana, Geneva, sans-serif;
   color: #545454;
 }
@@ -32,16 +32,16 @@ html, body, .Container-Wrapper {
   font-size: 14px;
 }
 
-.Text-Donate, .Text-Permissions {
+.Text-Footer, .Text-Permissions {
   font-size: 12px;
 }
 
-.Text-Donate a {
+.Text-Footer a {
   color: #74132D;
   text-decoration: none;
 }
 
-.Text-Donate a:hover {
+.Text-Footer a:hover {
   text-decoration: underline;
 }
 
