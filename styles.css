@@ -30,6 +30,10 @@ html, body, .Container-Wrapper {
   font-size: 14px;
 }
 
+.Text-Code {
+  font-family: "Courier New", Courier, monospace;
+}
+
 .Text-Footer, .Text-Permissions {
   font-size: 12px;
 }
@@ -41,6 +45,10 @@ html, body, .Container-Wrapper {
 
 .Text-Footer a:hover, .Text-Permissions a:hover {
   text-decoration: underline;
+}
+
+hr {
+  border: 1px solid #4D0015;
 }
 
 .Image-ChromeTabs {
