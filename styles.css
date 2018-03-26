@@ -34,12 +34,12 @@ html, body, .Container-Wrapper {
   font-size: 12px;
 }
 
-.Text-Footer a {
+.Text-Footer a, .Text-Permissions a {
   color: #74132D;
   text-decoration: none;
 }
 
-.Text-Footer a:hover {
+.Text-Footer a:hover, .Text-Permissions a:hover {
   text-decoration: underline;
 }
 
