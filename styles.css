@@ -61,3 +61,18 @@ hr {
   width: 100%;
   box-shadow: 0 2px 9px 0 rgba(0,0,0,0.1);
 }
+
+.Button-Get {
+  background-color: #74132D;
+  display: inline-block;
+  padding: 8px;
+  font-family: Verdana, Geneva, sans-serif;
+  text-decoration: none;
+  color: #FFFFFF;
+  border-radius: 4px;
+  margin: 12px 0;
+}
+
+.Button-Get:hover {
+  background-color: #AF1C1C;
+}
